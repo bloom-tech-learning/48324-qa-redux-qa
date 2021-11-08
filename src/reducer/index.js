@@ -1,7 +1,7 @@
 
 export const initialState = {
     todos: [
-        {title: "item 1", completed: true, id: 123},
+        {title: "item 1", completed: false, id: 123},
         {title: "item 2", completed: false, id: 456},
         {title: "item 3", completed: false, id: 789}
        
