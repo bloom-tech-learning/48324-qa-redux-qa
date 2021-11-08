@@ -1,10 +1,12 @@
 
+import { addTodo  } from "./../actions"
+import { connect } from "react-redux"
 
-const TodoForm = () => {
+const TodoForm = (props) => {
     const handleSubmit =(e) => {
         e.preventDefault();
         console.log('dispatch and todo action');
-    
+        console.log('props: ', props);    
     }
     return (
       <form>
@@ -15,4 +17,4 @@ const TodoForm = () => {
     );
   }
 
-  export default TodoForm;
+  export default connect()(TodoForm);

@@ -3,10 +3,8 @@ export const initialState = {
     todos: [
         {title: "item 1", completed: false, id: 123},
         {title: "item 2", completed: false, id: 456},
-        {title: "item 3", completed: false, id: 789}
-       
+        {title: "item 3", completed: false, id: 789}       
     ]
-
 };
 
 const reducer = (state = initialState, action) => {
