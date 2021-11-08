@@ -1,14 +1,28 @@
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1> Todo </h1>
-      <ul>
+const TodoList = () => {
+  return(
+    <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
       </ul>
+  );
+}
+
+const TodoForm = () => {
+  return (
+
+  );
+}
+
+export default function App() {
+  return (
+    <div className="App">
+      <h1> Todo </h1>
+      <TodoList />
+      
+      
 
       <form>
         <input />
@@ -19,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+
