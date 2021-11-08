@@ -1,24 +1,7 @@
 import './App.css';
 
-const TodoList = () => {
-  return(
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
-  );
-}
-
-const TodoForm = () => {
-  return (
-    <form>
-        <input />
-        <button>Submit Todo</button>
-        <button>Submit Three</button>
-      </form>
-  );
-}
+import TodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
 
 export default function App() {
   return (
