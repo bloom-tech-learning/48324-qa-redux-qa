@@ -3,7 +3,7 @@
 const TodoForm = () => {
     const handleSubmit =(e) => {
         e.preventDefault();
-        console.log('Adding todo');
+        console.log('dispatch and todo action');
     
     }
     return (
