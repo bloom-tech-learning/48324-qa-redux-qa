@@ -1,5 +1,5 @@
 
-import { addTodo  } from "./../actions"
+import { addTodo, addThree} from "./../actions"
 import { connect } from "react-redux"
 
 const TodoForm = (props) => {
@@ -9,11 +9,17 @@ const TodoForm = (props) => {
         // console.log('props: ', props); 
         props.dispatch(addTodo("this is a new title"));   
     }
+
+    const handleThreeSubmit = (e) => {
+      e.preventDefault();
+      props.dispatch(addThree("Three of me!!!"));
+    };
+
     return (
       <form>
           <input />
           <button onClick={handleSubmit}>Submit Todo</button>
-          <button>Submit Three</button>
+          <button onClick={handleThreeSubmit}>Submit Three</button>
         </form>
     );
   }

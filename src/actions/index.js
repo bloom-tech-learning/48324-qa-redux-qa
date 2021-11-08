@@ -4,8 +4,9 @@ export const addTodo = (title) => {
     return { type: ADD_TODO, payload: title };
   };
 
-  export const addThreeTodos = (title) => {
+  export const addThree = (title) => {
     return (dispatch => {
+      dispatch(addTodo(title));
 
     })
   }
