@@ -3,7 +3,7 @@
 
 -   [Module 4 - Context API QA Video](https://lambdaschool.zoom.us/rec/share/qNyMddmuSLKiOeNURi4v8N9FBHdeYkz2vEp67z2KIJwF3cRn5CkuOEj4ZU2vtC1_.x1mux5Ydqnwx-0YD)
 
--   [Code](https://codesandbox.io/s/admiring-cdn-vkjj1?file=/src/actions/index.js)
+-   [CodeSandbox](https://codesandbox.io/s/admiring-cdn-vkjj1?file=/src/actions/index.js)
 
 -   **[https://github.com/beatlesm/redux-qa-324](https://github.com/beatlesm/redux-qa-324)**
 
@@ -53,5 +53,3 @@ In this project you'll choose an api to consume. You will build an application f
 
 Take the app as far as you can go! Styling, redux hooks, another API, an input to fetch data dynamically, etc. Work on it, improve it until the end of the day. If you find yourself finishing with time left to spare, jump on with your TL or fellow student to ask them what feature they think you should build next. Good luck!
 
-## Submission Format
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
