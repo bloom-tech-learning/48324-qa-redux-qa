@@ -6,10 +6,11 @@ const TodoList = (props) => {
     const { todos } = props;
     return(
       <ul>
-          <Todo />
-          <Todo />
-          <Todo />
-          
+          {
+              todos.map(item => {
+                return <Todo />
+              })
+          }          
         </ul>
     );
   }
@@ -17,7 +18,7 @@ const TodoList = (props) => {
   const mapToStateToProps = (state) => {
     console.log('state in TodoList: ', state);
     return {
-        state: state.todos
+        todos: state.todos
     }
   }
   export default connect(mapToStateToProps)(TodoList);
