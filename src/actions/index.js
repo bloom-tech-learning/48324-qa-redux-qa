@@ -6,7 +6,8 @@ export const addTodo = (title) => {
 
   export const addThree = (title) => {
     return (dispatch => {
-      dispatch(addTodo(title));
+      console.log('Just doing my thing here. no state change necessary');
+      // dispatch(addTodo(title));
 
     })
   }
