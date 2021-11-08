@@ -1,9 +1,14 @@
 
+
 const TodoForm = () => {
+    const handleSubmit =(e) => {
+        e.preventDefault();
+    
+    }
     return (
       <form>
           <input />
-          <button>Submit Todo</button>
+          <button onClick={handleSubmit}>Submit Todo</button>
           <button>Submit Three</button>
         </form>
     );
