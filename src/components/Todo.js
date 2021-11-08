@@ -1,6 +1,6 @@
 
-const Todo = () => {
-
+const Todo = (props) => {
+    console.log('props in Todo: ', props);
     return (
         <li>Item</li>
     );

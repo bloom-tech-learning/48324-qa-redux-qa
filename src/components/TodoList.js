@@ -7,8 +7,8 @@ const TodoList = (props) => {
     return(
       <ul>
           {
-              todos.map(item => {
-                return <Todo />
+              todos.map(todo => {
+                return <Todo todo = {todo}/>
               })
           }          
         </ul>
