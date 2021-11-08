@@ -1,9 +1,9 @@
 
 export const initialState = {
     todos: [
-        {title: "item 1", complete: false, id: 123},
-        {title: "item 2", complete: false, id: 456},
-        {title: "item 3", complete: false, id: 789}
+        {title: "item 1", completed: true, id: 123},
+        {title: "item 2", completed: false, id: 456},
+        {title: "item 3", completed: false, id: 789}
        
     ]
 
