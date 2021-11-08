@@ -1,5 +1,11 @@
 # QA 3.2.4 -Async Redux - React Redux 
 
+
+-   [Module 4 - Context API QA Video](https://lambdaschool.zoom.us/rec/share/qNyMddmuSLKiOeNURi4v8N9FBHdeYkz2vEp67z2KIJwF3cRn5CkuOEj4ZU2vtC1_.x1mux5Ydqnwx-0YD)
+
+-   [Code](https://codesandbox.io/s/admiring-cdn-vkjj1?file=/src/actions/index.js)
+
+
 This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored asyncronous action creators in Redux. In your project you will demonstrate proficiency of these subjects and principles by building an app from scratch that consumes and API of your choosing, and displays data fetched from that API.
 
 ## Introduction
