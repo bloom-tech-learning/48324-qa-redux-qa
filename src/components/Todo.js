@@ -1,8 +1,8 @@
 
 const Todo = (props) => {
-    console.log('props in Todo: ', props);
+    // console.log('props in Todo: ', props);
     return (
-        <li>Item</li>
+        <li>{props.todo.title}</li>
     );
 }
 

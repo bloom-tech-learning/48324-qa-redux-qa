@@ -4,6 +4,7 @@ export const initialState = {
         {title: "item 1", complete: false, id: 123},
         {title: "item 2", complete: false, id: 456},
         {title: "item 3", complete: false, id: 789}
+       
     ]
 
 };
