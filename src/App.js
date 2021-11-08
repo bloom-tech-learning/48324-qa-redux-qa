@@ -12,7 +12,11 @@ const TodoList = () => {
 
 const TodoForm = () => {
   return (
-
+    <form>
+        <input />
+        <button>Submit Todo</button>
+        <button>Submit Three</button>
+      </form>
   );
 }
 
@@ -21,14 +25,7 @@ export default function App() {
     <div className="App">
       <h1> Todo </h1>
       <TodoList />
-      
-      
-
-      <form>
-        <input />
-        <button>Submit Todo</button>
-        <button>Submit Three</button>
-      </form>
+      <TodoForm />
     </div>
   );
 }
