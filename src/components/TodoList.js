@@ -3,7 +3,7 @@ import Todo from "./Todo";
 import { connect } from "react-redux";
 
 const TodoList = (props) => {
-    console.log('props in TodoList: ', props);
+    const { todos } = props;
     return(
       <ul>
           <Todo />
